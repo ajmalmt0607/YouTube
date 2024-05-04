@@ -1,0 +1,45 @@
+.main {
+	display: flex;
+	max-width: 1200px;
+	color: white;
+	margin: 0 auto;
+	column-gap: 15px;
+	margin-bottom: 10px;
+}
+.image-box {
+	width: 500px;
+}
+.image-box img {
+	width: 100%;
+	border-radius: 10px;
+}
+.content-box {
+	width: 700px;
+}
+.content-box h2 {
+	font-size: 18px;
+	font-weight: 400;
+}
+.content-box .channel-details {
+	display: flex;
+	align-items: center;
+	padding: 12px 0;
+}
+.content-box .channel-details h3 {
+	font-size: 12px;
+	margin-left: 8px;
+	font-weight: 400;
+	color: #868686;
+}
+.channel-details img {
+	width: 24px;
+	border-radius: 50%;
+}
+.content-box .video-count {
+	font-size: 13px;
+	color: #868686;
+}
+.content-box .description {
+	font-size: 12px;
+	color: #868686;
+}

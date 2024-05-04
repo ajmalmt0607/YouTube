@@ -1,0 +1,42 @@
+.recommended {
+	flex-basis: 23.5%;
+}
+.side-video-list {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 12px;
+}
+.side-video-list img {
+	/* flex-basis: 49%; */
+	width: 40%;
+	border-radius: 5px;
+}
+.vid-info {
+	flex-basis: 57%;
+}
+.vid-info h4 {
+	font-size: 13px;
+	line-height: 1.4;
+	color: white;
+}
+.vid-info .chan-name {
+	font-size: 13px;
+	font-weight: 500;
+	color: #5a5a5a;
+}
+.vid-info .vid-views {
+	font-size: 12px;
+	font-weight: 500;
+	color: #5a5a5a;
+}
+
+@media screen and (max-width: 1260px) {
+	.recommended {
+		flex-basis: 25%;
+	}
+}
+@media screen and (max-width: 1100px) {
+	.recommended {
+		display: none;
+	}
+}

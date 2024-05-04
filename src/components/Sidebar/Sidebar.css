@@ -1,0 +1,33 @@
+.sidebar {
+	background: black;
+	width: 78px;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	padding-top: 80px;
+	padding-left: 3px;
+}
+.sortcut-links {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+.sortcut-links .icons {
+	color: white;
+	width: 24px;
+	height: 24px;
+}
+.side-link {
+	margin-bottom: 30px;
+}
+.side-link p {
+	color: white;
+	font-size: 10px;
+}
+
+@media screen and (max-width: 684px) {
+	.sidebar {
+		display: none;
+	}
+}

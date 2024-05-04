@@ -1,0 +1,30 @@
+.newsidebar {
+	width: 220px;
+	background-color: black;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	padding-top: 80px;
+	padding-left: 28px;
+}
+.newsidebar .category-links {
+	display: flex;
+	flex-direction: column;
+}
+.newsidebar .category-link {
+	display: flex;
+	align-items: center;
+	padding: 10px 0px;
+	margin-bottom: 3px;
+}
+.newsidebar .category-link p {
+	color: white;
+	font-size: 14px;
+	font-weight: 500;
+}
+.newsidebar .category-links .icons {
+	color: white;
+	width: 24px;
+	height: 24px;
+	margin-right: 25px;
+}

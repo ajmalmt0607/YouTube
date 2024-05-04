@@ -1,0 +1,41 @@
+.category-buttons {
+	max-width: 800px;
+}
+.category-buttons button {
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: none;
+	background: #464545;
+	color: white;
+	font-weight: 500;
+	margin-right: 10px;
+	cursor: pointer;
+	margin-bottom: 20px;
+}
+.category-buttons button.active {
+	background: white;
+	color: black;
+}
+@media screen and (max-width: 1080px) {
+	.container {
+		padding-left: 24%;
+	}
+	.large-container {
+		padding-left: 10%;
+	}
+	.category-buttons {
+		flex-wrap: wrap;
+	}
+	.category-buttons button {
+		margin-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 840px) {
+	.category-buttons button {
+		margin-bottom: 12px;
+	}
+	.category-buttons {
+		flex-wrap: wrap;
+	}
+}

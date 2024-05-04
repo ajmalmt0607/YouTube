@@ -1,0 +1,148 @@
+nav {
+	padding: 10px 29px;
+	justify-content: space-between;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	background: black;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.nav-left .menu-icon {
+	width: 24px;
+	height: 24px;
+	margin-right: 25px;
+	color: white;
+	cursor: pointer;
+}
+.youtube-logo-1 {
+	width: 90px;
+	height: 20px;
+}
+.youtube-logo-1 img {
+	width: 100%;
+}
+
+.nav-middle .search-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.search-button img {
+	width: 18px;
+}
+.nav-middle .search-form .search-input {
+	padding-left: 16px;
+	padding-right: 4px;
+	background-color: #121212;
+	border: 1px solid #303030;
+	border-radius: 40px 0 0 40px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	height: 40px;
+}
+.nav-middle .search-form .search-input input {
+	border: 0;
+	outline: 0;
+	background: transparent;
+	width: 515px;
+	height: 26px;
+	font-size: 15px;
+	color: white;
+}
+.search-button {
+	padding: 1px 6px;
+	width: 64px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #303030;
+	background-color: #ffffff14;
+	border-radius: 0 40px 40px 0;
+	cursor: pointer;
+}
+.search-button button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+}
+.voice-icon-container {
+	width: 40px;
+	height: 40px;
+	background-color: #ffffff14;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+.voice-icon {
+	color: white;
+	font-size: 24px;
+}
+.user-profile {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.user-profile img {
+	width: 100%;
+}
+.video-add-icon {
+	width: 24px;
+	height: 24px;
+	color: white;
+	margin-right: 25px;
+}
+.notification-icon {
+	width: 24px;
+	height: 24px;
+	color: white;
+	margin-right: 25px;
+}
+/* /// */
+.popup-menu {
+	position: absolute;
+	top: 15px;
+	right: 320px; /* Adjust as needed */
+	z-index: 100; /* Ensure it's above other content */
+}
+.popup-menu.open .menu-content {
+	display: block;
+}
+
+@media screen and (max-width: 1080px) {
+	.nav-middle .search-form .search-input input {
+		width: 400px;
+	}
+}
+@media screen and (max-width: 1080px) {
+	.nav-middle .search-form .search-input input {
+		width: 300px;
+	}
+}
+@media screen and (max-width: 840px) {
+	.nav-middle .search-form .search-input input {
+		width: 260px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.nav-middle .search-form .search-input input {
+		width: 200px;
+	}
+}
+@media screen and (max-width: 684px) {
+	.nav-middle {
+		display: none;
+	}
+	.video-add-icon {
+		margin-right: 20px;
+	}
+	.notification-icon {
+		margin-right: 20px;
+	}
+}
